@@ -17,7 +17,7 @@
         " locale=en_US",
         " grub-installer/bootdev=/dev/sda",
         " noapic",
-	" preseed/url=http://10.0.0.36:8081/repository/ISOStorage/ISOStorage/preseed-mineos.cfg<wait>",
+	" preseed/url=http://10.0.0.36:8081/repository/ISOStorage/ISOStorage/preseed.cfg<wait>",
         " debian-installer=en_US auto=true locale=en_US kbd-chooser/method=us ",
         "console-setup/ask_detect=false keyboard-configuration/layoutcode=us ",
 	" netcfg/get_hostname=vagrant<wait>",

@@ -56,7 +56,7 @@
         [
           "modifyvm",
           "{{.Name}}",
-          "--nictype",
+          "--nictype1",
           "82540EM"
         ],
         [

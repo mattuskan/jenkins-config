@@ -56,13 +56,7 @@
         [
           "modifyvm",
           "{{.Name}}",
-          "--nictype1",
-          "82540EM"
-        ],
-        [
-          "modifyvm",
-          "{{.Name}}",
-          "--nic1",
+          "--nicenp2s0",
           "bridged"
         ]
       ]

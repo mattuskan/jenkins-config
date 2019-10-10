@@ -56,7 +56,7 @@
         [
           "modifyvm",
           "{{.Name}}",
-          "--nicenp0s3",
+          "--nic1",
           "bridged"
         ]
       ]

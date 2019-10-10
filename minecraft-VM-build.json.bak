@@ -57,7 +57,7 @@
           "modifyvm",
           "{{.Name}}",
           "--nic1",
-          "intnet"
+          "bridged"
         ]
       ]
     }

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#comment
 apt-get -y install curl
 
 curl -sL https://deb.nodesource.com/setup_8.x | bash -

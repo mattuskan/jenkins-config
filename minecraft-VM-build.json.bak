@@ -56,7 +56,8 @@
         [
           "modifyvm",
           "{{.Name}}",
-          "--nic enp2s0",
+          "--nic",
+          "enp2s0",
           "bridged"
         ]
       ]

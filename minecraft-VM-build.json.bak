@@ -52,6 +52,18 @@
           "{{.Name}}",
           "--cpus",
           "2"
+        ],
+        [
+          "modifyvm",
+          "{{.Name}}",
+          "--nictype",
+          "82540EM"
+        ],
+        [
+          "modifyvm",
+          "{{.Name}}",
+          "--nic1",
+          "bridged"
         ]
       ]
     }

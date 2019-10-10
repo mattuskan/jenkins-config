@@ -52,13 +52,6 @@
           "{{.Name}}",
           "--cpus",
           "2"
-        ],
-        [
-          "modifyvm",
-          "{{.Name}}",
-          "--nic1",
-          "enp2s0",
-          "bridged"
         ]
       ]
     }
